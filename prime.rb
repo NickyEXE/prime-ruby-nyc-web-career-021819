@@ -4,4 +4,6 @@ def prime?(number)
     false
   else
     n = sqrt(number).floor
+    n
 end
+prime?(10)
