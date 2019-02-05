@@ -17,3 +17,5 @@ def prime?(number)
 end
 
 prime?(9)
+
+prime?(13)
