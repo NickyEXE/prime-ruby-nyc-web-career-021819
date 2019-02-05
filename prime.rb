@@ -12,7 +12,7 @@ def prime?(number)
       else
       end
     end
-    puts (isit > 0)
+    puts (isit < 1)
   end
 end
 
