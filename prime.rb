@@ -5,6 +5,6 @@ def prime?(number)
   else
     n = Math.sqrt(number).floor
   end
-  n
+  puts n
 end
 prime?(10)
