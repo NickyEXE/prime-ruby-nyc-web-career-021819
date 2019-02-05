@@ -15,7 +15,3 @@ def prime?(number)
     puts (isit < 1)
   end
 end
-
-prime?(9)
-
-prime?(13)
