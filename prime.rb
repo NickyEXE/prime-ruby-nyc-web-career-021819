@@ -8,9 +8,8 @@ def prime?(number)
     array = (2..n)
     array.each do |num|
       number % num == 0 ? isit +=1 :
-    end
-    puts isit
   end
+    puts isit
 end
 
 prime?(9)
