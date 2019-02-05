@@ -4,10 +4,13 @@ def prime?(number)
     false
   else
     n = Math.sqrt(number).floor
-    true? = false
+    true? = true
     array = (2..n)
     array.each do |num|
-      number % num == 0 ? true? = true : 
+      number % num == 0 ? true? = false :
     end
+    puts true?
   end
 end
+
+prime?(9)
