@@ -12,7 +12,8 @@ def prime?(number)
       else
       end
     end
-    puts isit
+    isit > 0
   end
 end
+
 prime?(9)
