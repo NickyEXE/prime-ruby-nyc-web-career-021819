@@ -7,9 +7,12 @@ def prime?(number)
     isit = 0
     array = (2..n)
     array.each do |num|
-      number % num == 0 ? isit +=1 :
-  end
+      if number % num == 0
+        isit+=1
+      else
+      end
+    end
     puts isit
+  end
 end
-
 prime?(9)
