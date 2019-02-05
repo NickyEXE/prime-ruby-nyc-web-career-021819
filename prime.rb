@@ -7,7 +7,7 @@ def prime?(number)
     isit = true
     array = (2..n)
     array.each do |num|
-      number % num == 0 ? true? = false :
+      number % num == 0 ? isit = false :
     end
     puts isit
   end
