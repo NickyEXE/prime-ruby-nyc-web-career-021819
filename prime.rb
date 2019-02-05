@@ -3,7 +3,7 @@ def prime?(number)
   if number < 2
     false
   else
-    n = Integer.sqrt(number).floor
+    n = Math.sqrt(number).floor
     n
   end
 end
